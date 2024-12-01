@@ -1,6 +1,6 @@
-# oscparser
+# OSCParser
 
-**oscparser** is a Go package designed for efficient parsing and extraction of variable names from `.osc` files. It provides a straightforward interface to retrieve all variables, making it an essential tool for handling and processing `.osc` data in your Go applications.
+**OSCParser** is a Go package designed for efficient parsing and extraction of variable names from `.osc` files. It provides a straightforward interface to retrieve all variables, making it an essential tool for handling and processing `.osc` data in your Go applications.
 
 ## Features
 - Parse `.osc` files to extract variable names
