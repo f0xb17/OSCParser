@@ -8,7 +8,7 @@ import (
 
 // he read_file function reads an .osc file and extracts all the variable names present in the file.
 // It returns a map where the keys are the variable names and the values are boolean true.
-func read_file(filePath string, pattern string) (map[string]bool, error) {
+func Read_File(filePath string, pattern string) (map[string]bool, error) {
 	// Open the file and return an error when the file cannot be opened!
 	file, err := os.Open(filePath)
 	if err != nil {
