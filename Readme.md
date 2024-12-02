@@ -34,7 +34,7 @@ To use the `oscparser` package in your project, you need to import it directly f
     )
 
     func main() {
-      variables, err := oscparser.read_file("path/to/your/file", `\((S\.L|L\.L)\.(\w+)\)`)
+      variables, err := oscparser.Read_File("path/to/your/file", `\((S\.L|L\.L)\.(\w+)\)`)
       if err != nil {
         fmt.Println(err)
       }
